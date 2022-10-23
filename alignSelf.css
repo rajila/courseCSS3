@@ -1,0 +1,35 @@
+.container {
+      width: 500px;
+      min-height: 300px;
+      background-color: yellow;
+      border: 1px solid blue;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.item {
+      width: 75px;
+      background-color: yellowgreen;
+      border: 1px solid tomato;
+      text-align: center;
+}
+
+.flex-start {
+      align-self: flex-start;
+}
+
+.flex-end {
+      align-self: flex-end;
+}
+
+.center {
+      align-self: center;
+}
+
+.baseline {
+      align-self: baseline;
+}
+
+.stretch {
+      align-self: stretch;
+}
